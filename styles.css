@@ -1,0 +1,188 @@
+body {
+    background-color: rgb(237, 237, 237) !important;
+}
+
+.navigazione {
+    background-color: white !important;
+}
+
+.logo {
+    width: 50px;
+}
+.bianco {
+    background-color: #ffffff;
+}
+
+
+.titolo {
+    letter-spacing: 1em;
+    color: darkred;
+}
+
+.schweiz {
+    background: linear-gradient( rgba(255, 255, 255, 1) , rgba(255,255, 255, 0.0)) , url(./media/mountains2.png) , url('./media/switzerland-862870_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.citazioni {
+    font-style: italic;
+}
+
+.citazioni::before {
+    color: darkred;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.citazioni::after {
+    color: darkred;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: 0.30em;
+  vertical-align: -0.70em;
+}
+
+.icona {
+    border-bottom: darkred 3px solid;
+}
+
+.ico {
+    color: darkred;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    border: darkred solid;
+    position: relative;
+    top: 20px;
+}
+
+.descrizioni {
+    display: flex;
+    align-items: center !important;
+}
+
+.descrizione {
+    color:darkred;
+}
+
+.descrizione-1 {
+    text-align: left;
+}
+
+.descrizione-2 {
+    text-align: right;
+}
+.btn {
+    background-color: darkred !important;
+}
+
+.container {
+    background-color: rgb(237, 237, 237);
+}
+
+.bottone {
+    background-image: url(./media/trees2.png);
+    background-size: cover;
+    display: flex;
+    align-items: center !important;
+    justify-content: center!important;
+}
+
+
+
+.titolotesta {
+    color: darkred;
+}
+
+.sottotitolo {
+    color: darkred;
+    
+}
+ 
+
+.tempolinea {
+    border-left: darkred solid 5px; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.circhiolo {
+
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    border: darkred solid;
+    position: relative;
+    left: -40px;
+    top: 30px;
+    
+}
+
+.timeline {
+    background-color: white;
+    background-image: url(./media/single.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 500px;
+    background-position-y: 330px;
+}
+
+.team {
+    border-radius: 50%;
+    border: 2px solid darkred   ;
+}
+
+.bi {
+    color: darkred !important;
+}
+
+.team {
+    color: darkred;
+}
+
+.ilnostroteam {
+    color: darkred;
+}
+
+.personeteam {
+    color: darkred;
+}
+
+.nebbia {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 3px darkred solid;
+}
+
+.ourbenefits {
+    color: darkred;
+}
+
+.benefits {
+    color: darkred;
+}
+
+.alberirossi {
+    position: relative;
+    bottom: -50px;
+}
+
+.piede {
+    background-color: rgb(139, 1, 2);
+    color: white;
+
+}
